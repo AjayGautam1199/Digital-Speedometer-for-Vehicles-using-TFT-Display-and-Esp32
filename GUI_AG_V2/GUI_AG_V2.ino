@@ -7,7 +7,7 @@ class LGFX : public lgfx::LGFX_Device
 lgfx::Panel_ILI9341    _panel_instance; //9341
 lgfx::Bus_SPI       _bus_instance;  
 lgfx::Light_PWM     _light_instance;
-//lgfx::Touch_XPT2046     _touch_instance;
+//lgfx::Touch_XPT2046     _touch_instance; // touchscreen is not enabled, if you need please configure touch calibration 
 
 public:
   LGFX(void)
